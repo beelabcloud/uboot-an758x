@@ -10,5 +10,6 @@
 };
 
 &status_led {
-	default-state = "on";
+	//default-state = "on";
+    /delete-property/ default-state;
 };
