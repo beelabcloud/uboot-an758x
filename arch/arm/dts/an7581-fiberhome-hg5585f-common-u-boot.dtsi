@@ -5,7 +5,7 @@
 #include "an7581-u-boot.dtsi"
 #include "an758x-recovery-layout-u-boot.dtsi"
 
-status_led: &{/leds/led-0} {
+status_led: &{/leds/led-power} {
    bootph-all;
 };
 
